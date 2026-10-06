@@ -1,0 +1,10 @@
+snapshots:
+  - name: gold_items
+    relation: ref('source_gold_items')
+    config:
+      schema: gold
+      database: catalog_dbt
+      unique_key: items_id
+      strategy: timestamp
+      updated_at: updateDate
+      dbt_valid_to_current: "NULL" 
