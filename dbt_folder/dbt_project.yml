@@ -40,4 +40,3 @@ models:
     Gold:
       +materialzed: table
       schema : gold
-      
